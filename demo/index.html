@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script src="script.js" defer></script>
+
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction: column;
+            gap:20px;
+        }
+        #box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            box-shadow: 5px 15px 10px grey;
+            border-radius: 10px;
+            border:3px solid white;
+        }
+        #btn{
+            padding: 10px 20px;
+            background-color: aqua;
+            border:3px solid white;
+            box-shadow: 5px 15px 10px grey;
+            border-radius:5px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 20px;
+            
+        }
+        
+
+        #btn:active{
+            background-color: royalblue;
+            color: white;
+            scale: 0.95;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <div id="box"></div>
+    <button id="btn">Click Me to Generate random color</button>
+    <!-- <script src="script.js"></script> -->
+
+    
+</body>
+</html>
+
+
+<!-- 
+defer  -> in very simple words
+“Download JS now, run it later.” 
+used mainly when we write script tag in head tag-->
+
+<!-- 
+-> in css 🧠 Definition (simple + technical)
+
+A pseudo-class is a keyword added to a selector that defines
+how an element looks in a specific condition or state.
+:hover	mouse over
+:active	mouse pressed
+--> 
