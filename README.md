@@ -3,7 +3,7 @@
 A simple web app that generates random colors and displays the HEX code.
 
 ## 🚀 Live Demo
-https://your-username.github.io/random-color-generator/](https://khare-sushant530.github.io/random-color-generator/
+click here : https://khare-sushant530.github.io/random-color-generator/
 
 ## 🛠️ Built With
 - HTML
